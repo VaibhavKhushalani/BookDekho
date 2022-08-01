@@ -1,0 +1,40 @@
+.home-main {
+  width: 100%;
+  height: 100%;
+  background: #e5e5e5;
+}
+.slider-main {
+  width: 100%;
+  margin-top: 2em;
+}
+
+.slider-img {
+  border-radius: 8px;
+  -webkit-filter: brightness(0.8);
+  filter: brightness(0.8);
+  height: 60%;
+  max-height: 430px;
+  object-fit: cover;
+  width: 100%;
+}
+.title {
+  margin-top: 1.4em;
+  background-color: #212529;
+  /* width: fit-content; */
+  padding: 10px;
+  border-radius: 10px;
+  color: #ffff;
+  font-family: "Droid serif", serif;
+  font-size: 36px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 44px;
+}
+
+.card-main {
+  width: 18em;
+  border-radius: 10px !important;
+  height: 15em;
+  box-shadow: 0 0 50px rgba(9, 8, 14, 0.15);
+  cursor: default;
+}

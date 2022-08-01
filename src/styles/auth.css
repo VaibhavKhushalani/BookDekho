@@ -1,0 +1,15 @@
+.signin-main{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: #e5e5e5;
+    height: 100vh;
+}
+.signin-main Form{
+   background-color: #fff;
+   padding: 30px;
+   width: 25em;
+   border-radius: 10px;
+   border: 1px solid green;
+   
+}
