@@ -39,9 +39,27 @@ const NavBar = () => {
             <Button
               className="d-flex"
               variant="success"
-              onClick={() => navigate("/")}
+              onClick={() => navigate("/contact")}
             >
              Contact Us
+            </Button>
+          )}
+           {window.location.pathname === "/contact" && (
+            <Button
+              className="d-flex "
+              variant="success"
+              onClick={() => navigate("/home")}
+            >
+             Home
+            </Button>
+          )}
+           {window.location.pathname !== "/" && (
+            <Button
+              className="d-flex mx-5"
+              variant="danger"
+              onClick={() => navigate("/")}
+            >
+              Logout
             </Button>
           )}
         </Navbar.Collapse>
