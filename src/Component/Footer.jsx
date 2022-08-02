@@ -1,4 +1,3 @@
-import React from "react";
 import "../styles/footer.css";
 const Footer = () => {
   return (
@@ -9,13 +8,9 @@ const Footer = () => {
             <div className="col-xl-6 col-lg-6 mb-50">
               <div className="footer-widget">
                 <div className="footer-logo">
-                  <a href="index.html">
-                    <img
-                      src="https://i.ibb.co/QDy827D/ak-logo.png"
-                      className="img-fluid"
-                      alt="logo"
-                    />
-                  </a>
+                  <div className="footer-widget-heading">
+                    <h2>BooksDekho.com</h2>
+                  </div>
                 </div>
                 <div className="footer-text">
                   <p>
@@ -24,7 +19,7 @@ const Footer = () => {
                     elit,Lorem ipsum dolor sit amet.
                   </p>
                 </div>
-                <div className="footer-social-icon">
+                <div className="footer-social-icon mb-4">
                   <span>Follow us</span>
                   <a href="#">
                     <i className="fab fa-facebook-f facebook-bg"></i>
@@ -51,7 +46,7 @@ const Footer = () => {
                       <i className="fas fa-phone"></i>
                       <div className="cta-text">
                         <h4>Call us</h4>
-                        <span>9876543210 0</span>
+                        <span>+91 7536024636</span>
                       </div>
                     </div>
                   </div>
@@ -82,7 +77,7 @@ const Footer = () => {
               <div className="footer-menu">
                 <ul>
                   <li>
-                    <a href="/">Home</a>
+                    <a href="/home">Home</a>
                   </li>
                   <li>
                     <a href="/contact">Contact</a>
