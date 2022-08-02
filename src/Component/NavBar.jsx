@@ -25,7 +25,7 @@ const NavBar = () => {
             <Button
               variant="success"
               className="nav-btn"
-              style={{width:"fit-content"}}
+              style={{ width: "fit-content" }}
               onClick={() => navigate("/signup")}
             >
               Create New Account

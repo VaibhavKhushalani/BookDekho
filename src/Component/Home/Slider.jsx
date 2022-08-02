@@ -5,17 +5,17 @@ import Slide3 from "../../assests/book3.jpg";
 function Slider() {
   return (
     <div className="mt-5">
-    <Carousel fade prevIcon="" nextIcon="">
-      <Carousel.Item >
-        <img className="slider-img" src={Slide1} alt="First slide" />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img className="slider-img" src={Slide2} alt="Second slide" />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img className="slider-img" src={Slide3} alt="Third slide" />
-      </Carousel.Item>
-    </Carousel>
+      <Carousel fade prevIcon="" nextIcon="">
+        <Carousel.Item>
+          <img className="slider-img" src={Slide1} alt="First slide" />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img className="slider-img" src={Slide2} alt="Second slide" />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img className="slider-img" src={Slide3} alt="Third slide" />
+        </Carousel.Item>
+      </Carousel>
     </div>
   );
 }

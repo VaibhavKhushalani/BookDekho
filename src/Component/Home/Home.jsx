@@ -3,7 +3,6 @@ import { Row, Container, Card } from "react-bootstrap";
 import Slider from "./Slider";
 import "../../styles/home.css";
 import Books from "../../assests/books.json";
-console.log(Books);
 
 const Home = () => {
   return (
