@@ -12,9 +12,5 @@ API.interceptors.request.use((req) => {
 });
 
 export const FetchSignin = (data) => API.post("/auth/login", data);
-export const FetchSignup = (data) =>API.post("/auth/register", data);
-export const PostContact = (data) =>API.post("/contact", data);
-
-
-
-// export const FetchCa = () => API.get(`/my/accountants`);
+export const FetchSignup = (data) => API.post("/auth/register", data);
+export const PostContact = (data) => API.post("/contact", data);
