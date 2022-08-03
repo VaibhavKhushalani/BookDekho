@@ -71,6 +71,7 @@ const Footer = () => {
             <div className="col-xl-6 col-lg-6 text-center text-lg-left">
               <div className="copyright-text">
                 <p>Copyright &copy; 2022, All Right Reserved</p>
+                <p>Developed by @Vaibhav_Khushalani</p>
               </div>
             </div>
             <div className="col-xl-6 col-lg-6 d-none d-lg-block text-right">
