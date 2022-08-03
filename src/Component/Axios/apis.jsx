@@ -1,7 +1,7 @@
 import axios from "axios";
 import Cookies from "js-cookie";
 const API = axios.create({
-  baseURL: "https://booksdekho.herokuapp.com",
+  baseURL: "https://booksdekho-backend.herokuapp.com/",
 });
 
 API.interceptors.request.use((req) => {
