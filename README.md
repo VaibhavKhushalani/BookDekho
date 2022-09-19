@@ -41,6 +41,5 @@ You can access it directly here https://booksdekho.netlify.app/</p><h5>Steps</h5
 <li>or open https://booksdekho.netlify.app/</li>
 </ul><h2>Usage</h2>
 <hr><p>frontend hosted on netlify servers: https://booksdekho.netlify.app</p>
-<p>Backend hosted on heroku servers:
-https://booksdekho-backend.herokuapp.com</p><h2>Contact</h2>
+<h2>Contact</h2>
 <hr><p><span style="margin-right: 30px;"></span><a href="https://www.linkedin.com/in/vaibhav-khushalani-760217136/"><img target="_blank" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" style="width: 10%;"></a><span style="margin-right: 30px;"></span><a href="https://github.com/VaibhavKhushalani"><img target="_blank" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" style="width: 10%;"></a></p>
